@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{976ACCA1-58E4-448B-AA3D-7C751ECEC2E7}" Label="" LastModificationDate="1669733487" Name="ModeleLogiqueDonnees_1" Objects="64" Symbols="18" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" signature="LDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{976ACCA1-58E4-448B-AA3D-7C751ECEC2E7}" Label="" LastModificationDate="1669735857" Name="ModeleLogiqueDonnees_1" Objects="68" Symbols="19" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" signature="LDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>MODELELOGIQUEDONNEES_1</a:Code>
 <a:CreationDate>1669731475</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669733448</a:ModificationDate>
+<a:ModificationDate>1669735756</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -378,7 +378,7 @@ BuildTrgr=No</a:ModelOptionsText>
 <a:Code>DIAGRAMME_1</a:Code>
 <a:CreationDate>1669731475</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669733448</a:ModificationDate>
+<a:ModificationDate>1669735756</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -737,31 +737,10 @@ NAMA 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o12">
-<a:CreationDate>1669732918</a:CreationDate>
-<a:ModificationDate>1669733006</a:ModificationDate>
-<a:Rect>((-41037,2494), (-32413,13819))</a:Rect>
-<a:ListOfPoints>((-36672,13819),(-36672,9212),(-36778,9212),(-36778,2494))</a:ListOfPoints>
-<a:CornerStyle>2</a:CornerStyle>
-<a:ArrowStyle>4371</a:ArrowStyle>
-<a:LineColor>4194432</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-NAMA 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:EntitySymbol Ref="o13"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:EntitySymbol Ref="o14"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Relationship Ref="o15"/>
-</c:Object>
-</o:RelationshipSymbol>
-<o:RelationshipSymbol Id="o16">
 <a:CreationDate>1669732919</a:CreationDate>
-<a:ModificationDate>1669733322</a:ModificationDate>
-<a:Rect>((-33514,-648), (-17402,1398))</a:Rect>
-<a:ListOfPoints>((-17402,152),(-33514,152))</a:ListOfPoints>
+<a:ModificationDate>1669735756</a:ModificationDate>
+<a:Rect>((-32614,-507), (-17402,1539))</a:Rect>
+<a:ListOfPoints>((-17402,293),(-32614,293))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -772,13 +751,13 @@ NAMA 0 Arial,8,N</a:FontList>
 <o:EntitySymbol Ref="o10"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:EntitySymbol Ref="o14"/>
+<o:EntitySymbol Ref="o13"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Relationship Ref="o17"/>
+<o:Relationship Ref="o14"/>
 </c:Object>
 </o:RelationshipSymbol>
-<o:RelationshipSymbol Id="o18">
+<o:RelationshipSymbol Id="o15">
 <a:CreationDate>1669733285</a:CreationDate>
 <a:ModificationDate>1669733337</a:ModificationDate>
 <a:Rect>((-13705,22818), (1445,29118))</a:Rect>
@@ -790,16 +769,16 @@ NAMA 0 Arial,8,N</a:FontList>
 <a:FontList>DISPNAME 0 Arial,8,N
 NAMA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:EntitySymbol Ref="o19"/>
+<o:EntitySymbol Ref="o16"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:EntitySymbol Ref="o20"/>
+<o:EntitySymbol Ref="o17"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Relationship Ref="o21"/>
+<o:Relationship Ref="o18"/>
 </c:Object>
 </o:RelationshipSymbol>
-<o:RelationshipSymbol Id="o22">
+<o:RelationshipSymbol Id="o19">
 <a:CreationDate>1669733322</a:CreationDate>
 <a:ModificationDate>1669733322</a:ModificationDate>
 <a:Rect>((-9505,2868), (-3880,13518))</a:Rect>
@@ -817,10 +796,10 @@ NAMA 0 Arial,8,N</a:FontList>
 <o:EntitySymbol Ref="o10"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Relationship Ref="o23"/>
+<o:Relationship Ref="o20"/>
 </c:Object>
 </o:RelationshipSymbol>
-<o:RelationshipSymbol Id="o24">
+<o:RelationshipSymbol Id="o21">
 <a:CreationDate>1669733327</a:CreationDate>
 <a:ModificationDate>1669733356</a:ModificationDate>
 <a:CenterTextOffset>(825, 0)</a:CenterTextOffset>
@@ -833,10 +812,31 @@ NAMA 0 Arial,8,N</a:FontList>
 <a:FontList>DISPNAME 0 Arial,8,N
 NAMA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:EntitySymbol Ref="o20"/>
+<o:EntitySymbol Ref="o17"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
 <o:EntitySymbol Ref="o9"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o22"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o23">
+<a:CreationDate>1669735756</a:CreationDate>
+<a:ModificationDate>1669735857</a:ModificationDate>
+<a:Rect>((-33936,-10415), (-25312,10))</a:Rect>
+<a:ListOfPoints>((-26324,-10415),(-26324,-4029),(-32924,-4029),(-32924,10))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>4371</a:ArrowStyle>
+<a:LineColor>4194432</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o24"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o13"/>
 </c:DestinationSymbol>
 <c:Object>
 <o:Relationship Ref="o25"/>
@@ -930,11 +930,11 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o29"/>
 </c:Object>
 </o:EntitySymbol>
-<o:EntitySymbol Id="o13">
+<o:EntitySymbol Id="o24">
 <a:CreationDate>1669732637</a:CreationDate>
-<a:ModificationDate>1669732926</a:ModificationDate>
+<a:ModificationDate>1669735857</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-43804,12977), (-29336,17770))</a:Rect>
+<a:Rect>((-36229,-13873), (-21761,-9080))</a:Rect>
 <a:LineColor>16512</a:LineColor>
 <a:FillColor>1422826</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -952,11 +952,11 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o30"/>
 </c:Object>
 </o:EntitySymbol>
-<o:EntitySymbol Id="o14">
+<o:EntitySymbol Id="o13">
 <a:CreationDate>1669732824</a:CreationDate>
-<a:ModificationDate>1669732956</a:ModificationDate>
+<a:ModificationDate>1669735756</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-42556,-1381), (-31228,3413))</a:Rect>
+<a:Rect>((-41656,-1081), (-30328,3713))</a:Rect>
 <a:LineColor>16512</a:LineColor>
 <a:FillColor>1422826</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -974,7 +974,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o31"/>
 </c:Object>
 </o:EntitySymbol>
-<o:EntitySymbol Id="o19">
+<o:EntitySymbol Id="o16">
 <a:CreationDate>1669733158</a:CreationDate>
 <a:ModificationDate>1669733337</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -996,7 +996,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o32"/>
 </c:Object>
 </o:EntitySymbol>
-<o:EntitySymbol Id="o20">
+<o:EntitySymbol Id="o17">
 <a:CreationDate>1669733224</a:CreationDate>
 <a:ModificationDate>1669733335</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -1020,9 +1020,9 @@ Identifiers 0 Arial,8,N</a:FontList>
 </o:EntitySymbol>
 <o:EntitySymbol Id="o34">
 <a:CreationDate>1669733448</a:CreationDate>
-<a:ModificationDate>1669733487</a:ModificationDate>
+<a:ModificationDate>1669735743</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-2781,-13185), (11069,-8392))</a:Rect>
+<a:Rect>((-56780,-12414), (-42930,-7621))</a:Rect>
 <a:LineColor>16512</a:LineColor>
 <a:FillColor>1422826</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1038,6 +1038,50 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
 <o:Entity Ref="o35"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o36">
+<a:CreationDate>1669734327</a:CreationDate>
+<a:ModificationDate>1669734689</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-3565,-21891), (12757,-16124))</a:Rect>
+<a:LineColor>16512</a:LineColor>
+<a:FillColor>1422826</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o37"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o38">
+<a:CreationDate>1669734605</a:CreationDate>
+<a:ModificationDate>1669735744</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-50822,-22277), (-39200,-16509))</a:Rect>
+<a:LineColor>16512</a:LineColor>
+<a:FillColor>1422826</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o39"/>
 </c:Object>
 </o:EntitySymbol>
 </c:Symbols>
@@ -1056,7 +1100,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733423</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o36">
+<o:Identifier Id="o40">
 <a:ObjectID>3085DC0E-6DE2-461F-B6EB-DAD18EE8B08B</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1065,15 +1109,15 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669731533</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o37"/>
+<o:EntityAttribute Ref="o41"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o36"/>
+<o:Identifier Ref="o40"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o37">
+<o:EntityAttribute Id="o41">
 <a:ObjectID>5377D393-1E78-4457-AAE0-48909F806DAC</a:ObjectID>
 <a:Name>id_animal</a:Name>
 <a:Code>ID_ANIMAL</a:Code>
@@ -1083,7 +1127,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Modifier>Maxime</a:Modifier>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o38">
+<o:EntityAttribute Id="o42">
 <a:ObjectID>E9008BC3-4141-4112-9042-259FEA9670D0</a:ObjectID>
 <a:Name>Nom-baptême</a:Name>
 <a:Code>NOM_BAPTEME</a:Code>
@@ -1092,7 +1136,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669731533</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o39">
+<o:EntityAttribute Id="o43">
 <a:ObjectID>2FD6270A-951E-4EBE-9D97-C3CF3F717D5B</a:ObjectID>
 <a:Name>Sexe</a:Name>
 <a:Code>SEXE</a:Code>
@@ -1101,7 +1145,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669731533</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o40">
+<o:EntityAttribute Id="o44">
 <a:ObjectID>29C7B86D-0EDA-46E3-B2A3-1815B79A453E</a:ObjectID>
 <a:Name>Date-naissance</a:Name>
 <a:Code>DATE_NAISSANCE</a:Code>
@@ -1110,7 +1154,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669731533</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o41">
+<o:EntityAttribute Id="o45">
 <a:ObjectID>B66B534B-4444-41AD-8E2D-077828231C73</a:ObjectID>
 <a:Name>Date-decès</a:Name>
 <a:Code>DATE_DECES</a:Code>
@@ -1130,7 +1174,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733423</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o42">
+<o:Identifier Id="o46">
 <a:ObjectID>06DBE238-ABD6-4E27-8241-979E31172B6D</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1139,15 +1183,15 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669731559</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o43"/>
+<o:EntityAttribute Ref="o47"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o42"/>
+<o:Identifier Ref="o46"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o43">
+<o:EntityAttribute Id="o47">
 <a:ObjectID>7CC4F5D6-BEE9-4A7B-838B-388BB352ECA9</a:ObjectID>
 <a:Name>id_espece</a:Name>
 <a:Code>ID_ESPECE</a:Code>
@@ -1157,7 +1201,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Modifier>Maxime</a:Modifier>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o44">
+<o:EntityAttribute Id="o48">
 <a:ObjectID>3FE369B8-C6C8-4BF7-8C33-B8AF5EA86AFD</a:ObjectID>
 <a:Name>id_animal</a:Name>
 <a:Code>ID_ANIMAL</a:Code>
@@ -1166,7 +1210,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669732682</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o45">
+<o:EntityAttribute Id="o49">
 <a:ObjectID>57E2F0F1-5351-4B67-9605-19DB702557FD</a:ObjectID>
 <a:Name>id_repas</a:Name>
 <a:Code>ID_REPAS</a:Code>
@@ -1175,7 +1219,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733322</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o46">
+<o:EntityAttribute Id="o50">
 <a:ObjectID>C754CCB8-2B9B-460E-8BF9-25DE5B1B177A</a:ObjectID>
 <a:Name>Libelle_esp</a:Name>
 <a:Code>LIBELLE_ESP</a:Code>
@@ -1195,7 +1239,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733133</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o47">
+<o:Identifier Id="o51">
 <a:ObjectID>4870559D-0C65-4C64-9174-347A3E24E566</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1204,15 +1248,15 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669731686</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o48"/>
+<o:EntityAttribute Ref="o52"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o47"/>
+<o:Identifier Ref="o51"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o48">
+<o:EntityAttribute Id="o52">
 <a:ObjectID>904244B7-7432-4203-BCAC-94145AADF3D5</a:ObjectID>
 <a:Name>id_repas</a:Name>
 <a:Code>ID_REPAS</a:Code>
@@ -1222,7 +1266,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Modifier>Maxime</a:Modifier>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o49">
+<o:EntityAttribute Id="o53">
 <a:ObjectID>F1BC22C3-EB4B-411A-B417-DAE73B7C7A52</a:ObjectID>
 <a:Name>Libelle_repas</a:Name>
 <a:Code>LIBELLE_REPAS</a:Code>
@@ -1231,7 +1275,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733133</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o50">
+<o:EntityAttribute Id="o54">
 <a:ObjectID>9A15B220-DB8A-44C5-AAD9-B9B987174471</a:ObjectID>
 <a:Name>Quantité</a:Name>
 <a:Code>QUANTITE</a:Code>
@@ -1251,7 +1295,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733082</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o51">
+<o:Identifier Id="o55">
 <a:ObjectID>874C31E4-5307-4478-BD90-F511CB92514B</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1262,10 +1306,10 @@ Identifiers 0 Arial,8,N</a:FontList>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o51"/>
+<o:Identifier Ref="o55"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o52">
+<o:EntityAttribute Id="o56">
 <a:ObjectID>F449FC9F-51D2-4CF1-9A22-010C6BA69FEF</a:ObjectID>
 <a:Name>id_repas</a:Name>
 <a:Code>ID_REPAS</a:Code>
@@ -1274,7 +1318,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669732471</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o53">
+<o:EntityAttribute Id="o57">
 <a:ObjectID>84A45EB5-543B-4564-B06E-796564C4C966</a:ObjectID>
 <a:Name>Lipides</a:Name>
 <a:Code>LIPIDES</a:Code>
@@ -1283,7 +1327,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669732070</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o54">
+<o:EntityAttribute Id="o58">
 <a:ObjectID>B430D3B1-D53E-4596-A0B8-62E8249FAE74</a:ObjectID>
 <a:Name>Glucides</a:Name>
 <a:Code>GLUCIDES</a:Code>
@@ -1292,7 +1336,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669732070</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o55">
+<o:EntityAttribute Id="o59">
 <a:ObjectID>4530B844-8AE4-478C-B738-CA0B004D7BB6</a:ObjectID>
 <a:Name>Protides</a:Name>
 <a:Code>PROTIDES</a:Code>
@@ -1309,10 +1353,10 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Code>ENCLOS</a:Code>
 <a:CreationDate>1669732637</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669733042</a:ModificationDate>
+<a:ModificationDate>1669735855</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o56">
+<o:Identifier Id="o60">
 <a:ObjectID>C4DB9433-C634-416A-81F3-6A20EA2D984F</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1321,15 +1365,15 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669732774</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o57"/>
+<o:EntityAttribute Ref="o61"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o56"/>
+<o:Identifier Ref="o60"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o57">
+<o:EntityAttribute Id="o61">
 <a:ObjectID>732829A2-9F69-4668-B5C8-4E7B4E08E194</a:ObjectID>
 <a:Name>id_enclos</a:Name>
 <a:Code>ID_ENCLOS</a:Code>
@@ -1339,7 +1383,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Modifier>Maxime</a:Modifier>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o58">
+<o:EntityAttribute Id="o62">
 <a:ObjectID>8741E2A1-72D5-4F5E-B839-CF5A4E0E2072</a:ObjectID>
 <a:Name>Libelle_enclos</a:Name>
 <a:Code>LIBELLE_ENCLOS</a:Code>
@@ -1356,25 +1400,25 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Code>ENCLOS_DES_ESPECES</a:Code>
 <a:CreationDate>1669732824</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669733054</a:ModificationDate>
+<a:ModificationDate>1669735855</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Attributes>
-<o:EntityAttribute Id="o59">
-<a:ObjectID>2DABAF8F-ED40-495A-81D6-8A0922F684D6</a:ObjectID>
-<a:Name>id_enclos</a:Name>
-<a:Code>ID_ENCLOS</a:Code>
-<a:CreationDate>1669732918</a:CreationDate>
-<a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669732918</a:ModificationDate>
-<a:Modifier>Maxime</a:Modifier>
-</o:EntityAttribute>
-<o:EntityAttribute Id="o60">
+<o:EntityAttribute Id="o63">
 <a:ObjectID>78875DB6-2C66-4157-9606-9A8E7C955742</a:ObjectID>
 <a:Name>id_espece</a:Name>
 <a:Code>ID_ESPECE</a:Code>
 <a:CreationDate>1669732919</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669732919</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o64">
+<a:ObjectID>D7A7FD28-764F-4B66-AE83-F7D1473B19B9</a:ObjectID>
+<a:Name>id_enclos</a:Name>
+<a:Code>ID_ENCLOS</a:Code>
+<a:CreationDate>1669735756</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669735756</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
 </c:Attributes>
@@ -1388,7 +1432,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733401</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o61">
+<o:Identifier Id="o65">
 <a:ObjectID>384F75C9-A3FD-49FC-ADBD-1011E663A323</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1397,15 +1441,15 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733184</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o62"/>
+<o:EntityAttribute Ref="o66"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o61"/>
+<o:Identifier Ref="o65"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o62">
+<o:EntityAttribute Id="o66">
 <a:ObjectID>1AC6B5FC-5569-4A08-B961-F1A1738A55D9</a:ObjectID>
 <a:Name>id_elements</a:Name>
 <a:Code>ID_ELEMENTS</a:Code>
@@ -1415,7 +1459,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Modifier>Maxime</a:Modifier>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o63">
+<o:EntityAttribute Id="o67">
 <a:ObjectID>973DED51-394F-46C5-B712-9726D13F6CFD</a:ObjectID>
 <a:Name>Libelle_elements</a:Name>
 <a:Code>LIBELLE_ELEMENTS</a:Code>
@@ -1435,7 +1479,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733401</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Attributes>
-<o:EntityAttribute Id="o64">
+<o:EntityAttribute Id="o68">
 <a:ObjectID>AFDB2C0A-90AE-4B35-A98C-C3D99899ECD6</a:ObjectID>
 <a:Name>id_elements</a:Name>
 <a:Code>ID_ELEMENTS</a:Code>
@@ -1455,7 +1499,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733483</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o65">
+<o:Identifier Id="o69">
 <a:ObjectID>58B90581-4CAC-4A7A-8F5B-F8E773A957F3</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1464,15 +1508,15 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1669733483</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o66"/>
+<o:EntityAttribute Ref="o70"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o65"/>
+<o:Identifier Ref="o69"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o66">
+<o:EntityAttribute Id="o70">
 <a:ObjectID>F3C04894-CB7C-4413-A51F-8F8971DE1791</a:ObjectID>
 <a:Name>id_Espece</a:Name>
 <a:Code>ID_ESPECE</a:Code>
@@ -1482,13 +1526,107 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:Modifier>Maxime</a:Modifier>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o67">
+<o:EntityAttribute Id="o71">
 <a:ObjectID>A102C49C-FEDE-4FFD-AF2B-A8E400587411</a:ObjectID>
 <a:Name>Nom_espece</a:Name>
 <a:Code>NOM_ESPECE</a:Code>
 <a:CreationDate>1669733454</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669733483</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o37">
+<a:ObjectID>7A2C7F18-1E08-4A87-A3B8-100FCF407BED</a:ObjectID>
+<a:Name>PERIODE</a:Name>
+<a:Code>PERIODE</a:Code>
+<a:CreationDate>1669734327</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734441</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o72">
+<a:ObjectID>8D9EC6F4-9249-4A0A-B93A-7C64E07915C4</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669734329</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734441</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o73"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o72"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o73">
+<a:ObjectID>875E2ECD-A824-4D5B-9A4C-23FC495489A0</a:ObjectID>
+<a:Name>id_periode</a:Name>
+<a:Code>ID_PERIODE</a:Code>
+<a:CreationDate>1669734329</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734441</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o74">
+<a:ObjectID>75AA1BA8-C85C-4B3A-A60E-ADE66D40E44B</a:ObjectID>
+<a:Name>date-début_periode</a:Name>
+<a:Code>DATE_DEBUT_PERIODE</a:Code>
+<a:CreationDate>1669734329</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734441</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o75">
+<a:ObjectID>01D49F25-526E-4A46-B1D3-EB5DF28B03E1</a:ObjectID>
+<a:Name>date-fin_periode</a:Name>
+<a:Code>DATE_FIN_PERIODE</a:Code>
+<a:CreationDate>1669734329</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734441</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o39">
+<a:ObjectID>7B221E26-10AD-4438-8035-3A5567FE1065</a:ObjectID>
+<a:Name>ANIMAUX_ENCLOS_PERIODE</a:Name>
+<a:Code>ANIMAUX_ENCLOS_PERIODE</a:Code>
+<a:CreationDate>1669734605</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734640</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o76">
+<a:ObjectID>178C1C7E-6E37-4B70-8A63-F2C8C9AB3A43</a:ObjectID>
+<a:Name>id_animaux</a:Name>
+<a:Code>ID_ANIMAUX</a:Code>
+<a:CreationDate>1669734608</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734640</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o77">
+<a:ObjectID>ED9595A0-E435-43E4-AFC7-081808961B31</a:ObjectID>
+<a:Name>id_enclos</a:Name>
+<a:Code>ID_ENCLOS</a:Code>
+<a:CreationDate>1669734608</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734640</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o78">
+<a:ObjectID>5B319965-C1D4-48D3-8447-8CC3FC13BEB9</a:ObjectID>
+<a:Name>id_periode</a:Name>
+<a:Code>ID_PERIODE</a:Code>
+<a:CreationDate>1669734608</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669734640</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 </o:EntityAttribute>
 </c:Attributes>
@@ -1512,22 +1650,22 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o28"/>
 </c:Object2>
 <c:Joins>
-<o:RelationshipJoin Id="o68">
+<o:RelationshipJoin Id="o79">
 <a:ObjectID>9D4D4461-FF24-4804-9A29-3E511AD7A3F2</a:ObjectID>
 <a:CreationDate>1669732471</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669732471</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Object1>
-<o:EntityAttribute Ref="o48"/>
+<o:EntityAttribute Ref="o52"/>
 </c:Object1>
 <c:Object2>
-<o:EntityAttribute Ref="o52"/>
+<o:EntityAttribute Ref="o56"/>
 </c:Object2>
 </o:RelationshipJoin>
 </c:Joins>
 <c:ParentIdentifier>
-<o:Identifier Ref="o47"/>
+<o:Identifier Ref="o51"/>
 </c:ParentIdentifier>
 </o:Relationship>
 <o:Relationship Id="o11">
@@ -1547,60 +1685,25 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o26"/>
 </c:Object2>
 <c:Joins>
-<o:RelationshipJoin Id="o69">
+<o:RelationshipJoin Id="o80">
 <a:ObjectID>7E576A36-D9AA-490A-84BC-F9FBF9716F86</a:ObjectID>
 <a:CreationDate>1669732682</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669732682</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Object1>
-<o:EntityAttribute Ref="o37"/>
+<o:EntityAttribute Ref="o41"/>
 </c:Object1>
 <c:Object2>
-<o:EntityAttribute Ref="o44"/>
+<o:EntityAttribute Ref="o48"/>
 </c:Object2>
 </o:RelationshipJoin>
 </c:Joins>
 <c:ParentIdentifier>
-<o:Identifier Ref="o36"/>
+<o:Identifier Ref="o40"/>
 </c:ParentIdentifier>
 </o:Relationship>
-<o:Relationship Id="o15">
-<a:ObjectID>AC927A8E-B9C4-44B9-878B-024A7FD8FC2D</a:ObjectID>
-<a:Name>ENCLOS -&gt; ESPECES</a:Name>
-<a:Code>ENCLOS____ESPECES_</a:Code>
-<a:CreationDate>1669732918</a:CreationDate>
-<a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669733047</a:ModificationDate>
-<a:Modifier>Maxime</a:Modifier>
-<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
-<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
-<c:Object1>
-<o:Entity Ref="o31"/>
-</c:Object1>
-<c:Object2>
-<o:Entity Ref="o30"/>
-</c:Object2>
-<c:Joins>
-<o:RelationshipJoin Id="o70">
-<a:ObjectID>462159B9-6FAF-4AB5-B584-DAE41DF1902F</a:ObjectID>
-<a:CreationDate>1669732918</a:CreationDate>
-<a:Creator>Maxime</a:Creator>
-<a:ModificationDate>1669732918</a:ModificationDate>
-<a:Modifier>Maxime</a:Modifier>
-<c:Object1>
-<o:EntityAttribute Ref="o57"/>
-</c:Object1>
-<c:Object2>
-<o:EntityAttribute Ref="o59"/>
-</c:Object2>
-</o:RelationshipJoin>
-</c:Joins>
-<c:ParentIdentifier>
-<o:Identifier Ref="o56"/>
-</c:ParentIdentifier>
-</o:Relationship>
-<o:Relationship Id="o17">
+<o:Relationship Id="o14">
 <a:ObjectID>C0B9E4A9-A970-4A9B-826C-F20A42A85564</a:ObjectID>
 <a:Name>ENCLOS &lt;- ESPECES</a:Name>
 <a:Code>ENCLOS__ESPECES</a:Code>
@@ -1617,25 +1720,25 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o27"/>
 </c:Object2>
 <c:Joins>
-<o:RelationshipJoin Id="o71">
+<o:RelationshipJoin Id="o81">
 <a:ObjectID>23AF7C6B-0AC7-464E-ADCC-B83FC913494D</a:ObjectID>
 <a:CreationDate>1669732919</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669732919</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Object1>
-<o:EntityAttribute Ref="o43"/>
+<o:EntityAttribute Ref="o47"/>
 </c:Object1>
 <c:Object2>
-<o:EntityAttribute Ref="o60"/>
+<o:EntityAttribute Ref="o63"/>
 </c:Object2>
 </o:RelationshipJoin>
 </c:Joins>
 <c:ParentIdentifier>
-<o:Identifier Ref="o42"/>
+<o:Identifier Ref="o46"/>
 </c:ParentIdentifier>
 </o:Relationship>
-<o:Relationship Id="o21">
+<o:Relationship Id="o18">
 <a:ObjectID>F5948279-EF6B-4B6A-BAC9-C358306F4C0D</a:ObjectID>
 <a:Name>ELEMENTS-BASE &gt; MENU_ELEMENTS</a:Name>
 <a:Code>ELEMENTS_BASE___MENU_ELEMENTS</a:Code>
@@ -1652,25 +1755,25 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o32"/>
 </c:Object2>
 <c:Joins>
-<o:RelationshipJoin Id="o72">
+<o:RelationshipJoin Id="o82">
 <a:ObjectID>F8D7218A-7A9D-42EF-A7AF-2F704F8BE96C</a:ObjectID>
 <a:CreationDate>1669733285</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669733285</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Object1>
-<o:EntityAttribute Ref="o62"/>
+<o:EntityAttribute Ref="o66"/>
 </c:Object1>
 <c:Object2>
-<o:EntityAttribute Ref="o64"/>
+<o:EntityAttribute Ref="o68"/>
 </c:Object2>
 </o:RelationshipJoin>
 </c:Joins>
 <c:ParentIdentifier>
-<o:Identifier Ref="o61"/>
+<o:Identifier Ref="o65"/>
 </c:ParentIdentifier>
 </o:Relationship>
-<o:Relationship Id="o23">
+<o:Relationship Id="o20">
 <a:ObjectID>0B335D50-B78F-4BA2-9F56-0CE9ABDC8825</a:ObjectID>
 <a:Name>Relation_6</a:Name>
 <a:Code>RELATION_6</a:Code>
@@ -1687,25 +1790,25 @@ Identifiers 0 Arial,8,N</a:FontList>
 <o:Entity Ref="o28"/>
 </c:Object2>
 <c:Joins>
-<o:RelationshipJoin Id="o73">
+<o:RelationshipJoin Id="o83">
 <a:ObjectID>A3DD45CF-643E-4287-B70A-52844D6EB978</a:ObjectID>
 <a:CreationDate>1669733322</a:CreationDate>
 <a:Creator>Maxime</a:Creator>
 <a:ModificationDate>1669733322</a:ModificationDate>
 <a:Modifier>Maxime</a:Modifier>
 <c:Object1>
-<o:EntityAttribute Ref="o48"/>
+<o:EntityAttribute Ref="o52"/>
 </c:Object1>
 <c:Object2>
-<o:EntityAttribute Ref="o45"/>
+<o:EntityAttribute Ref="o49"/>
 </c:Object2>
 </o:RelationshipJoin>
 </c:Joins>
 <c:ParentIdentifier>
-<o:Identifier Ref="o47"/>
+<o:Identifier Ref="o51"/>
 </c:ParentIdentifier>
 </o:Relationship>
-<o:Relationship Id="o25">
+<o:Relationship Id="o22">
 <a:ObjectID>5C14B00E-D23D-4674-9553-25FCCE3D4632</a:ObjectID>
 <a:Name>MENU_ELEMENTS &gt; ANIMAUX</a:Name>
 <a:Code>MENU_ELEMENTS___ANIMAUX</a:Code>
@@ -1721,6 +1824,41 @@ Identifiers 0 Arial,8,N</a:FontList>
 <c:Object2>
 <o:Entity Ref="o33"/>
 </c:Object2>
+</o:Relationship>
+<o:Relationship Id="o25">
+<a:ObjectID>74DBFF7F-7150-4FF1-9A42-315DFA070828</a:ObjectID>
+<a:Name>ENCLOS -&gt; ESPECES</a:Name>
+<a:Code>ENCLOS____ESPECES</a:Code>
+<a:CreationDate>1669735756</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669735855</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o31"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o30"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o84">
+<a:ObjectID>39E9726F-C29D-4C5B-B45B-8CF28F6BEF23</a:ObjectID>
+<a:CreationDate>1669735756</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669735756</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o61"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o64"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o60"/>
+</c:ParentIdentifier>
 </o:Relationship>
 </c:Relationships>
 </o:Model>

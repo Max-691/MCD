@@ -9,7 +9,8 @@
 		<Model Expanded="Yes" ID="{75E48DB4-262E-4A06-BCCD-3277DF928E20}" Loaded="No" Name="Exo1_avec mewen" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="maison/Exo1_avec mewen.mcd"/>
 		<Model Expanded="Yes" ID="{E1A5A04D-D42B-4269-9DDF-C9BBDCD0CA43}" Loaded="No" Name="ModeleConceptuelDonnees_1" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="maison/retry exo5.mcd"/>
 		<Model Expanded="Yes" ID="{75E48DB4-262E-4A06-BCCD-3277DF928E20}" Loaded="No" Name="Exo1_avec mewen" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="maison/Exo1_avec mewen.mcd"/>
-		<Model Expanded="Yes" ID="{8AD762A2-1E0D-4AD6-A88B-82CFC1F6AFEF}" Name="ModeleConceptuelDonnees_1" Selected="Yes" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Exercice_1/Exercice_1.mcd"/>
+		<Model Expanded="Yes" ID="{8AD762A2-1E0D-4AD6-A88B-82CFC1F6AFEF}" Loaded="No" Name="ModeleConceptuelDonnees_1" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Exercice_1/Exercice_1.mcd"/>
+		<Model Expanded="Yes" ID="{A7186E40-5A42-4028-9BFF-5DE7FB9DE2DD}" Name="ModeleConceptuelDonnees_1" Selected="Yes" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Exercice_11/ModeleConceptuelDonnees_1.mcd"/>
 	</Local>
 	<BrowserModule Name="Référentiel"/>
 </Workspace>

@@ -1,0 +1,2363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{410C569F-66C6-4C74-AA6C-332C43091DD1}" Label="" LastModificationDate="1669885093" Name="correction_Exo7_auto" Objects="84" Symbols="17" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" signature="LDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>410C569F-66C6-4C74-AA6C-332C43091DD1</a:ObjectID>
+<a:Name>correction_Exo7_auto</a:Name>
+<a:Code>CORRECTION_EXO7_AUTO</a:Code>
+<a:CreationDate>1669885053</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885057</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {DC1D073E-8BE3-4E35-86F8-C2C415913582}
+DAT 1669885057</a:History>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Logical options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+Notation=0
+RlshUnique=Yes
+DefaultDttp=
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyExat=No
+DomnCopyMand=No
+DttpFullName=Yes
+RlshMigrateDomain=Yes
+RlshMigrateCheck=Yes
+RlshMigrateRule=Yes
+RlshMigrateExtd=Yes
+RlshAllowNN=No
+FKNameTemplate=%.3:PARENT%_%ATTRIBUTE%
+FKNameTemplateUsage=No
+
+[ModelOptions\Logical options\NamingOptionsTemplates]
+
+[ModelOptions\Logical options\ClssNamingOptions]
+
+[ModelOptions\Logical options\ClssNamingOptions\FILO]
+
+[ModelOptions\Logical options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Logical options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPCKG]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMDOMN]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMENTT]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMENTT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMENTT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPROP]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPROP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMPROP\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMIDTF]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMIDTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMIDTF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMRLSH]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMRLSH\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMRLSH\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMINHR]
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMINHR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Logical options\ClssNamingOptions\LDMINHR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+BuildTrgr=No</a:ModelOptionsText>
+<c:GenerationOrigins>
+<o:Shortcut Id="o3">
+<a:ObjectID>71D4D5CA-0C3B-40EA-B363-1EEB768B79D6</a:ObjectID>
+<a:Name>correction_Exo7</a:Name>
+<a:Code>CORRECTION_EXO7</a:Code>
+<a:CreationDate>1669885057</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885057</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>DC1D073E-8BE3-4E35-86F8-C2C415913582</a:TargetID>
+<a:TargetClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetClassID>
+</o:Shortcut>
+</c:GenerationOrigins>
+<c:LogicalDiagrams>
+<o:LogicalDiagram Id="o4">
+<a:ObjectID>B2B2584D-A941-4DA5-9C0A-2F5C31049E38</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>DIAGRAMME_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {557AC803-5B26-4D17-A051-B112EFBB6C90}
+DAT 1669885057</a:History>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\LDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=
+PckgStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+EnttAttr=Yes
+PentMode=0
+PentNb=5
+EnttDttp=Yes
+EnttDomn=Yes
+EnttShowDomn=No
+EnttMand=Yes
+EnttCIdf=Yes
+EnttKeyI=Yes
+PentStrn=Yes
+IdtfStrn=Yes
+RlshName=Yes
+RlshRole=Yes
+RlshCard=No
+RlshDmnt=Yes
+RlshStrn=Yes
+InhrName=Yes
+InhrStrn=Yes
+Entity.IconPicture=No
+Entity_SymbolLayout=
+Inheritance.IconPicture=No
+Inheritance_SymbolLayout=
+EnttStrn=Yes
+EnttCmmt=No
+Association.IconPicture=No
+Association_SymbolLayout=
+AsscStrn=Yes
+AsscCmmt=No
+AsscAttr=Yes
+AsscDttp=Yes
+AsscDomn=Yes
+AsscShowDomn=No
+AsscMand=Yes
+AsscDLim=Yes
+AsscNb=5
+PassStrn=1
+LinkRole=Yes
+LinkCard=Yes
+LinkStrn=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=-1
+
+[DisplayPreferences\Symbol\LDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMENTT]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AttributesFont=Arial,8,N
+AttributesFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0 0 0
+EntityForeignAttributeFont=Arial,8,N
+EntityForeignAttributeFont color=0 0 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=234 181 21
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 64 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMRLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+NAMAFont=Arial,8,N
+NAMAFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=No
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1575
+Height=1000
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 64 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LDMLINH]
+Line style=2
+Pen=1 0 128 64 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AttributesFont=Arial,8,N
+AttributesFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0 0 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+NAMAFont=Arial,8,N
+NAMAFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+ROLEFont=Arial,8,N
+ROLEFont color=0, 0, 0
+CARDFont=Arial,8,N
+CARDFont color=0, 0, 0
+Line style=2
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=No
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1575
+Height=1000
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINH]
+Line style=2
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\CDM]</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:RelationshipSymbol Id="o5">
+<a:ModificationDate>1669885078</a:ModificationDate>
+<a:Rect>((1426,9299), (6900,26474))</a:Rect>
+<a:ListOfPoints>((3301,26474),(3301,17606),(5026,17606),(5026,9299))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>5906</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o7"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o8"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o9">
+<a:ModificationDate>1669885079</a:ModificationDate>
+<a:Rect>((2552,-4200), (7726,9449))</a:Rect>
+<a:ListOfPoints>((5139,9449),(5139,-4200))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>4631</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o11"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o12">
+<a:Rect>((-26099,23924), (3451,26624))</a:Rect>
+<a:ListOfPoints>((-26099,23924),(-11070,23924),(-11070,26624),(3451,26624))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>4627</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o13"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o14"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o15">
+<a:ModificationDate>1669885093</a:ModificationDate>
+<a:Rect>((-12467,-22114), (7258,-15225))</a:Rect>
+<a:ListOfPoints>((7258,-16875),(7258,-20868),(-12467,-20868),(-12467,-15225))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>5906</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o16"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o17"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o18"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:RelationshipSymbol Id="o19">
+<a:ModificationDate>1669885093</a:ModificationDate>
+<a:Rect>((4220,-16875), (9770,-5925))</a:Rect>
+<a:ListOfPoints>((7070,-16875),(7070,-11116),(6920,-11116),(6920,-5925))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>5906</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+NAMA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o16"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o10"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Relationship Ref="o20"/>
+</c:Object>
+</o:RelationshipSymbol>
+<o:InheritanceRootLinkSymbol Id="o21">
+<a:ModificationDate>1669885074</a:ModificationDate>
+<a:CenterTextOffset>(450, 900)</a:CenterTextOffset>
+<a:Rect>((-26624,13941), (-23587,18900))</a:Rect>
+<a:ListOfPoints>((-26624,14287),(-24899,14287),(-24899,18900))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:InheritanceSymbol Ref="o22"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o13"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Inheritance Ref="o23"/>
+</c:Object>
+</o:InheritanceRootLinkSymbol>
+<o:InheritanceLinkSymbol Id="o24">
+<a:ModificationDate>1669885070</a:ModificationDate>
+<a:Rect>((-26249,8560), (-26117,14286))</a:Rect>
+<a:ListOfPoints>((-26117,8560),(-26249,14286))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o25"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o22"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o26"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:InheritanceLinkSymbol Id="o27">
+<a:ModificationDate>1669885067</a:ModificationDate>
+<a:Rect>((-37349,14286), (-26249,14386))</a:Rect>
+<a:ListOfPoints>((-37349,14286),(-26249,14286))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o28"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o22"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o29"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:EntitySymbol Id="o7">
+<a:ModificationDate>1669885078</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-1359,5929), (11411,12670))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o30"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o10">
+<a:ModificationDate>1669885079</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-2133,-7571), (12335,-830))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o31"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o13">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-34338,18119), (-17860,29730))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o32"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o6">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-4281,22617), (10883,30332))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o33"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o17">
+<a:ModificationDate>1669885092</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-24065,-18972), (-7433,-14179))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o34"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o16">
+<a:ModificationDate>1669885093</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-1147,-19759), (15021,-13993))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o35"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o28">
+<a:ModificationDate>1669885067</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-51513,1022), (-35035,14579))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o36"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o25">
+<a:ModificationDate>1669885070</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-31492,-2615), (-12156,11916))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o37"/>
+</c:Object>
+</o:EntitySymbol>
+<o:InheritanceSymbol Id="o22">
+<a:Rect>((-27036,13787), (-25463,14786))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepSize>1</a:KeepSize>
+<c:Object>
+<o:Inheritance Ref="o23"/>
+</c:Object>
+</o:InheritanceSymbol>
+</c:Symbols>
+</o:LogicalDiagram>
+</c:LogicalDiagrams>
+<c:DefaultDiagram>
+<o:LogicalDiagram Ref="o4"/>
+</c:DefaultDiagram>
+<c:Entities>
+<o:Entity Id="o30">
+<a:ObjectID>63521F15-10A8-490C-BAF8-5F8D328704DE</a:ObjectID>
+<a:Name>COMPETITION</a:Name>
+<a:Code>COMPETITION</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {82FE4977-114D-4207-B7C4-03B4D9E71BE5}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o38">
+<a:ObjectID>F6F8B269-A4B7-40D8-B38B-11C998F4989E</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {409466A5-530D-49A8-B8D0-2821A4265C54}
+DAT 1669885057</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o39"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o38"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o39">
+<a:ObjectID>E9E6F2A7-64BB-4A52-BA42-EF222150247E</a:ObjectID>
+<a:Name>id_com</a:Name>
+<a:Code>ID_COM</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {654E7F36-6D4D-440B-B524-E5B235E7CFA8}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o40">
+<a:ObjectID>6550C48D-E005-4F0B-A015-D08D1CFCA329</a:ObjectID>
+<a:Name>date_co</a:Name>
+<a:Code>DATE_CO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {C2C57605-0A7A-4771-A6B0-AE223FD8E818}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o41">
+<a:ObjectID>763E4C1C-F306-4580-BDD8-501845F0547F</a:ObjectID>
+<a:Name>libelle_co</a:Name>
+<a:Code>LIBELLE_CO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {45C9E52B-4ED9-4FB3-BD7E-BC905177BDAA}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o42">
+<a:ObjectID>9A7FC4C1-C9A0-450D-A85A-910DD7CA02DC</a:ObjectID>
+<a:Name>ville_co</a:Name>
+<a:Code>VILLE_CO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {389AB73F-7B40-4349-89FA-3A7A168D90EC}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o31">
+<a:ObjectID>3B858932-963E-4EBD-88D7-B1689FA6944B</a:ObjectID>
+<a:Name>EPREUVE</a:Name>
+<a:Code>EPREUVE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {CA1FA998-4A61-4F85-AB92-785304DB16A7}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o43">
+<a:ObjectID>31454DFE-BEDF-43C3-9F29-91724A7F3A8F</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {CCFF27E3-184D-4B91-80DE-C41C0301D5E6}
+DAT 1669885057</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o44"/>
+<o:EntityAttribute Ref="o45"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o43"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o44">
+<a:ObjectID>5A96E182-3D86-46F3-B6D0-C630B51ED6F7</a:ObjectID>
+<a:Name>id_ep</a:Name>
+<a:Code>ID_EP</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {47D36DF1-9723-40AC-A000-EDF0C1D81B03}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o45">
+<a:ObjectID>CE2D3DDC-D2B4-4CB5-97C6-DA4878805DB0</a:ObjectID>
+<a:Name>id_com</a:Name>
+<a:Code>ID_COM</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {654E7F36-6D4D-440B-B524-E5B235E7CFA8},{677A8083-765E-4C0E-B694-781E28B3E506}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o46">
+<a:ObjectID>543CFD99-75A7-4F76-AD99-A8BCD3389CF9</a:ObjectID>
+<a:Name>distance_ep</a:Name>
+<a:Code>DISTANCE_EP</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {903A8B0D-6CE4-4F81-BF40-5AD6AB1B7A75}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o47">
+<a:ObjectID>D6C7AF21-71C2-4831-A5C3-DC73B9D8812B</a:ObjectID>
+<a:Name>descriptif_ep</a:Name>
+<a:Code>DESCRIPTIF_EP</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {44AA9D3E-7037-4609-AD1B-830402D22DFC}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o32">
+<a:ObjectID>3B675BDB-53B4-4B7A-8619-9BCFBC0865E4</a:ObjectID>
+<a:Name>SPORTIF</a:Name>
+<a:Code>SPORTIF</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {C121361C-486E-434D-8C7D-135F9DBE4953}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o48">
+<a:ObjectID>54FF73BE-84B3-4DBB-A71A-792CB81366A4</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {CE573980-0653-459C-BD9F-F3A50BCDFF27}
+DAT 1669885057</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o49"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o48"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o49">
+<a:ObjectID>16167CD3-E729-4D86-A825-1BA88EDD9560</a:ObjectID>
+<a:Name>id_spo</a:Name>
+<a:Code>ID_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {18EFB23A-B597-4B36-BFF2-CD8F0B8C0490}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o50">
+<a:ObjectID>CC9F3484-C9A9-4FD3-8267-F914BF853D85</a:ObjectID>
+<a:Name>nom_spo</a:Name>
+<a:Code>NOM_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {3CB30BC1-F3B5-4C0F-9E29-137A0021BA5D}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o51">
+<a:ObjectID>40DD263C-B49D-4901-8FEC-58B7A763BFA9</a:ObjectID>
+<a:Name>prenom_spo</a:Name>
+<a:Code>PRENOM_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {C62F1BCF-2C86-4AD8-AD49-104D61F1A0BD}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o52">
+<a:ObjectID>A41FE29E-3D3C-489C-9755-611D4771FC81</a:ObjectID>
+<a:Name>adresse-rue_spo</a:Name>
+<a:Code>ADRESSE_RUE_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {51EE700E-F921-4386-8678-E96DA2125761}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o53">
+<a:ObjectID>E1F12536-5CB4-4F6F-9B23-87296EB6A02C</a:ObjectID>
+<a:Name>adresse-compet_spo</a:Name>
+<a:Code>ADRESSE_COMPET_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {F5F8416B-297F-45B7-AB05-7802FDE58B19}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o54">
+<a:ObjectID>44B0DC49-A255-4B77-9E00-149E12F41679</a:ObjectID>
+<a:Name>adresse-ville_spo</a:Name>
+<a:Code>ADRESSE_VILLE_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {745F94F1-983B-421A-A1D0-C1DB1C38E1AB}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o55">
+<a:ObjectID>7BEFBE29-B77A-4301-B119-C445F89FF1D5</a:ObjectID>
+<a:Name>tel_spo</a:Name>
+<a:Code>TEL_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {29D68AB3-984C-4D5F-885C-3FD1EA1C5C9F}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o56">
+<a:ObjectID>BB76EAC3-1BCC-40F2-AFF2-C07236C4F4B9</a:ObjectID>
+<a:Name>fax_spo</a:Name>
+<a:Code>FAX_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {4257CA0B-8F6F-4BF1-9E15-1B8B4F3B02AF}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o57">
+<a:ObjectID>C8FD48BA-92AD-46C6-B8C9-9BCD95456B1F</a:ObjectID>
+<a:Name>mail_spo</a:Name>
+<a:Code>MAIL_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {B137DAF5-FAFC-4100-883C-76A0AEBCECD8}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o33">
+<a:ObjectID>1977DE33-6F9A-4A78-A7C4-856B72F07D06</a:ObjectID>
+<a:Name>INSCRIPTION</a:Name>
+<a:Code>INSCRIPTION</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {970F1A8D-D91E-4C84-83A5-60A341F608FF}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o58">
+<a:ObjectID>20C65F60-ACA7-403F-AE2C-35FA472B71D3</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {5D2F6606-D243-42F3-872D-36E3441FE8C0}
+DAT 1669885057</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o59"/>
+<o:EntityAttribute Ref="o60"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o58"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o59">
+<a:ObjectID>72514698-678F-4830-8C4D-491990F2FBE1</a:ObjectID>
+<a:Name>id_do</a:Name>
+<a:Code>ID_DO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {25AAC93B-0F38-4A75-AAB8-A9FC1A6E309A}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o60">
+<a:ObjectID>62D4CA9A-C482-450A-A549-BB571ACA4B2F</a:ObjectID>
+<a:Name>id_com</a:Name>
+<a:Code>ID_COM</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {654E7F36-6D4D-440B-B524-E5B235E7CFA8},{BFF6BB36-AF55-4797-8F89-56734C4E0B07}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o61">
+<a:ObjectID>0FF77170-65CD-44E3-B93C-D8AED1A96469</a:ObjectID>
+<a:Name>id_spo</a:Name>
+<a:Code>ID_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {18EFB23A-B597-4B36-BFF2-CD8F0B8C0490},{703F7C3E-D521-4B4C-AEC8-376E5CA5B32C}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o62">
+<a:ObjectID>0D065EDA-D5B8-4E35-8134-EF6B4EB9F8B4</a:ObjectID>
+<a:Name>date_ins</a:Name>
+<a:Code>DATE_INS</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {4D1C6B40-26D5-4A80-B60D-F378BE2A4A5B}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o63">
+<a:ObjectID>FD462F48-9BEC-432F-867C-D36DED397D44</a:ObjectID>
+<a:Name>categorie_ins</a:Name>
+<a:Code>CATEGORIE_INS</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {31E9BB80-AA78-443A-B763-2A8A157639BF}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o34">
+<a:ObjectID>80353B06-7A47-413D-A382-83A3DC70FE87</a:ObjectID>
+<a:Name>TYPE_EPREUVE</a:Name>
+<a:Code>TYPE_EPREUVE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {DF518B6C-38F5-41F6-BA69-ABBD812574AE}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o64">
+<a:ObjectID>D50E8F37-E95F-4D92-989A-56D7B835F61F</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {3001C137-5AD5-4688-A846-42563ADB967C}
+DAT 1669885057</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o65"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o64"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o65">
+<a:ObjectID>CDB9DDFE-BDA5-4D31-8F98-878E12AB1646</a:ObjectID>
+<a:Name>id_type-epreuve</a:Name>
+<a:Code>ID_TYPE_EPREUVE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {1C273268-0DD3-40FB-BA7D-C9766740F874}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o66">
+<a:ObjectID>7036BB4E-2B7D-4718-B96D-5D4FDC70962D</a:ObjectID>
+<a:Name>libelle_type-epreuve</a:Name>
+<a:Code>LIBELLE_TYPE_EPREUVE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {B19F6F21-D7F5-4CD7-A955-FA9F6E6CB36D}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o36">
+<a:ObjectID>CF362B21-D92D-4E21-8382-1E506BAF696C</a:ObjectID>
+<a:Name>LICENCE</a:Name>
+<a:Code>LICENCE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {896C4DCE-A32E-43B6-9E7D-70E7B3B38C10}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o67">
+<a:ObjectID>4EFA473F-D5F8-4480-9BF7-4D8E80822FA4</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {D315E1A3-91E6-49A5-8FBB-7D0D7D0DC557}
+DAT 1669885057</a:History>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o68"/>
+<o:EntityAttribute Ref="o69"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o67"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o68">
+<a:ObjectID>5F4B4DC3-8D94-46A5-B566-B44F57830935</a:ObjectID>
+<a:Name>id_spo</a:Name>
+<a:Code>ID_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {18EFB23A-B597-4B36-BFF2-CD8F0B8C0490},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o49"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o69">
+<a:ObjectID>8536801B-E49A-4EB3-BA58-84EABE5468B8</a:ObjectID>
+<a:Name>id_licence</a:Name>
+<a:Code>ID_LICENCE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {43B8EE74-514C-4048-BC11-C2A3B5CDEAC5}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o70">
+<a:ObjectID>19D19A0E-E81E-4452-99DC-1798344AAF1E</a:ObjectID>
+<a:Name>nom_spo</a:Name>
+<a:Code>NOM_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {3CB30BC1-F3B5-4C0F-9E29-137A0021BA5D},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o50"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o71">
+<a:ObjectID>306AF01D-D569-41F4-AFD2-AFBE0BE80FFF</a:ObjectID>
+<a:Name>prenom_spo</a:Name>
+<a:Code>PRENOM_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {C62F1BCF-2C86-4AD8-AD49-104D61F1A0BD},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o51"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o72">
+<a:ObjectID>9F72646F-4569-426F-83D5-7C7491C4A5AF</a:ObjectID>
+<a:Name>adresse-rue_spo</a:Name>
+<a:Code>ADRESSE_RUE_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {51EE700E-F921-4386-8678-E96DA2125761},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o52"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o73">
+<a:ObjectID>4FF281D2-1A15-4E18-A220-760654DBB9AA</a:ObjectID>
+<a:Name>adresse-compet_spo</a:Name>
+<a:Code>ADRESSE_COMPET_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {F5F8416B-297F-45B7-AB05-7802FDE58B19},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o53"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o74">
+<a:ObjectID>25607C37-3811-421C-8323-2AB5C6ABAED1</a:ObjectID>
+<a:Name>adresse-ville_spo</a:Name>
+<a:Code>ADRESSE_VILLE_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {745F94F1-983B-421A-A1D0-C1DB1C38E1AB},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o54"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o75">
+<a:ObjectID>0D64A373-39F5-4110-9CE8-423DCD4A170C</a:ObjectID>
+<a:Name>tel_spo</a:Name>
+<a:Code>TEL_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {29D68AB3-984C-4D5F-885C-3FD1EA1C5C9F},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o55"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o76">
+<a:ObjectID>E41E696F-6ED0-4412-9E28-BF70AB4E1382</a:ObjectID>
+<a:Name>fax_spo</a:Name>
+<a:Code>FAX_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {4257CA0B-8F6F-4BF1-9E15-1B8B4F3B02AF},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o56"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o77">
+<a:ObjectID>86721192-815E-4086-BCFF-3129FCFB9E4B</a:ObjectID>
+<a:Name>mail_spo</a:Name>
+<a:Code>MAIL_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {B137DAF5-FAFC-4100-883C-76A0AEBCECD8},{BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o57"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o78">
+<a:ObjectID>7FD48202-A5E1-427C-8272-8D9ECDB6AFF0</a:ObjectID>
+<a:Name>club_licence</a:Name>
+<a:Code>CLUB_LICENCE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {FF9D275D-6A8A-4DC3-AC04-7D2445702FFD}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o37">
+<a:ObjectID>D295D574-B0BB-4125-A017-1ECDB43E693B</a:ObjectID>
+<a:Name>AMATEUR</a:Name>
+<a:Code>AMATEUR</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {3AA4970E-DF08-46CE-833C-E5CA2ED0507D}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o79">
+<a:ObjectID>1E76D285-7A77-4F81-9E2D-F6671C5A4A5E</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o80"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o79"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o80">
+<a:ObjectID>92A5EAC8-D459-4A01-8BAD-B850A1EEB4FC</a:ObjectID>
+<a:Name>id_spo</a:Name>
+<a:Code>ID_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {18EFB23A-B597-4B36-BFF2-CD8F0B8C0490},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o49"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o81">
+<a:ObjectID>6F5A0A12-3460-44F8-81B1-C688C8FA2D82</a:ObjectID>
+<a:Name>nom_spo</a:Name>
+<a:Code>NOM_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {3CB30BC1-F3B5-4C0F-9E29-137A0021BA5D},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o50"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o82">
+<a:ObjectID>C36DBA32-457C-417E-BF0B-D52DD73EFFCA</a:ObjectID>
+<a:Name>prenom_spo</a:Name>
+<a:Code>PRENOM_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {C62F1BCF-2C86-4AD8-AD49-104D61F1A0BD},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o51"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o83">
+<a:ObjectID>0C0A3F4C-56ED-4A27-A72D-B89878A2717C</a:ObjectID>
+<a:Name>adresse-rue_spo</a:Name>
+<a:Code>ADRESSE_RUE_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {51EE700E-F921-4386-8678-E96DA2125761},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o52"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o84">
+<a:ObjectID>D276EA0C-DCEA-4E78-9B83-79251AECCBE4</a:ObjectID>
+<a:Name>adresse-compet_spo</a:Name>
+<a:Code>ADRESSE_COMPET_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {F5F8416B-297F-45B7-AB05-7802FDE58B19},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o53"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o85">
+<a:ObjectID>B4DA216A-F3AC-449F-AFAB-6E35E2116182</a:ObjectID>
+<a:Name>adresse-ville_spo</a:Name>
+<a:Code>ADRESSE_VILLE_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {745F94F1-983B-421A-A1D0-C1DB1C38E1AB},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o54"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o86">
+<a:ObjectID>2396B5E0-81A5-42FF-A233-8A307C4E9B12</a:ObjectID>
+<a:Name>tel_spo</a:Name>
+<a:Code>TEL_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {29D68AB3-984C-4D5F-885C-3FD1EA1C5C9F},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o55"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o87">
+<a:ObjectID>725D6932-9E90-4D1D-B046-7CB66C189C1C</a:ObjectID>
+<a:Name>fax_spo</a:Name>
+<a:Code>FAX_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {4257CA0B-8F6F-4BF1-9E15-1B8B4F3B02AF},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o56"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o88">
+<a:ObjectID>DB927286-AA33-4BDF-9C47-F576A36C5D04</a:ObjectID>
+<a:Name>mail_spo</a:Name>
+<a:Code>MAIL_SPO</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {B137DAF5-FAFC-4100-883C-76A0AEBCECD8},{639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:InheritedFrom>
+<o:EntityAttribute Ref="o57"/>
+</c:InheritedFrom>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o89">
+<a:ObjectID>6C9EECB9-D5B9-4C24-B32C-98441833F633</a:ObjectID>
+<a:Name>commentaire_certif-medical</a:Name>
+<a:Code>COMMENTAIRE_CERTIF_MEDICAL</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {80E40427-64FD-4F16-AD38-DAEB841472FD}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o90">
+<a:ObjectID>791C901F-03B6-4FCC-9162-2564B923CDC4</a:ObjectID>
+<a:Name>date_certificat</a:Name>
+<a:Code>DATE_CERTIFICAT</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {D9FBC0A4-356F-482D-AEEF-D20388E32788}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o91">
+<a:ObjectID>54DA9C8C-9744-4E8B-830E-240B306BF8F7</a:ObjectID>
+<a:Name>nom_certificat</a:Name>
+<a:Code>NOM_CERTIFICAT</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {BFC0B80D-9724-4148-9793-9C79BB4F20B1}
+DAT 1669885057</a:History>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o35">
+<a:ObjectID>9BE154C8-5807-4954-A7CE-B33D4890C574</a:ObjectID>
+<a:Name>Association_3</a:Name>
+<a:Code>ASSOCIATION_3</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {68F717F2-A9FA-4400-B282-788654C3A7BB}
+DAT 1669885057</a:History>
+<c:Identifiers>
+<o:Identifier Id="o92">
+<a:ObjectID>E29B8D41-98CB-4CF0-9A3D-31B524DB9110</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o93"/>
+<o:EntityAttribute Ref="o94"/>
+<o:EntityAttribute Ref="o95"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o92"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o93">
+<a:ObjectID>80CA0DA2-D6AC-4697-B59F-337BB19C71DB</a:ObjectID>
+<a:Name>id_type-epreuve</a:Name>
+<a:Code>ID_TYPE_EPREUVE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {1C273268-0DD3-40FB-BA7D-C9766740F874},{FFD6114E-1028-47D3-BF12-4F271A8D51CD}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o94">
+<a:ObjectID>EA49FF52-634F-492F-AA18-9D3580A901E3</a:ObjectID>
+<a:Name>id_ep</a:Name>
+<a:Code>ID_EP</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {47D36DF1-9723-40AC-A000-EDF0C1D81B03},{8EDEF6F7-73EA-4B52-929F-4DB5497FE33C}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o95">
+<a:ObjectID>DC08E55B-73C7-475E-A373-0AFE1C4768AB</a:ObjectID>
+<a:Name>id_com</a:Name>
+<a:Code>ID_COM</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {654E7F36-6D4D-440B-B524-E5B235E7CFA8},{677A8083-765E-4C0E-B694-781E28B3E506}-{8EDEF6F7-73EA-4B52-929F-4DB5497FE33C}
+DAT 1669885057</a:History>
+<a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+</c:Entities>
+<c:Relationships>
+<o:Relationship Id="o8">
+<a:ObjectID>4128AA9B-6CA6-4345-A861-AE3F681CDCEF</a:ObjectID>
+<a:Name>CONCERNER</a:Name>
+<a:Code>CONCERNER</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {BFF6BB36-AF55-4797-8F89-56734C4E0B07}
+DAT 1669885057</a:History>
+<a:DependentRole>A</a:DependentRole>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o30"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o33"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o96">
+<a:ObjectID>9E0D1987-BA87-48CF-9C4F-B4E642B13594</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o39"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o60"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o38"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o11">
+<a:ObjectID>830C3C84-B7AE-4670-9FF4-A0EFE7FBC368</a:ObjectID>
+<a:Name>COMPOSER</a:Name>
+<a:Code>COMPOSER</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {677A8083-765E-4C0E-B694-781E28B3E506}
+DAT 1669885057</a:History>
+<a:DependentRole>B</a:DependentRole>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o31"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o30"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o97">
+<a:ObjectID>DE3BFE90-CAB8-4517-8884-218D64059E4B</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o39"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o45"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o38"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o14">
+<a:ObjectID>41ADDE19-001D-407C-A052-5C571EB1464B</a:ObjectID>
+<a:Name>S&#39;INSCRIRE</a:Name>
+<a:Code>S_INSCRIRE</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {703F7C3E-D521-4B4C-AEC8-376E5CA5B32C}
+DAT 1669885057</a:History>
+<a:Entity1ToEntity2RoleCardinality>0,n</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>1,1</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o33"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o32"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o98">
+<a:ObjectID>EE4FE295-5F3A-418D-A529-7D388FA70A3C</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o49"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o61"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o48"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o18">
+<a:ObjectID>CB1D09F1-7262-46A9-B1A9-A2AEE20BFFB8</a:ObjectID>
+<a:Name>Association_3</a:Name>
+<a:Code>ASSOCIATION_4</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:History>ORG {FFD6114E-1028-47D3-BF12-4F271A8D51CD}
+DAT 1669885057</a:History>
+<a:DependentRole>A</a:DependentRole>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o34"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o35"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o99">
+<a:ObjectID>E06D89F4-13F8-4C6A-B48E-8B111312E98B</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o65"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o93"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o64"/>
+</c:ParentIdentifier>
+</o:Relationship>
+<o:Relationship Id="o20">
+<a:ObjectID>E692F5EB-894A-4722-A3A7-DAA22F3713A3</a:ObjectID>
+<a:Name>Association_3</a:Name>
+<a:Code>ASSOCIATION_3</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:History>ORG {8EDEF6F7-73EA-4B52-929F-4DB5497FE33C}
+DAT 1669885057</a:History>
+<a:DependentRole>A</a:DependentRole>
+<a:Entity1ToEntity2RoleCardinality>1,1</a:Entity1ToEntity2RoleCardinality>
+<a:Entity2ToEntity1RoleCardinality>0,n</a:Entity2ToEntity1RoleCardinality>
+<c:Object1>
+<o:Entity Ref="o31"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o35"/>
+</c:Object2>
+<c:Joins>
+<o:RelationshipJoin Id="o100">
+<a:ObjectID>8C3987B6-D584-4181-8E3C-BB8AB69F15F4</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o44"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o94"/>
+</c:Object2>
+</o:RelationshipJoin>
+<o:RelationshipJoin Id="o101">
+<a:ObjectID>C313AFC9-4DB7-41DF-A785-48F68B00EC80</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<c:Object1>
+<o:EntityAttribute Ref="o45"/>
+</c:Object1>
+<c:Object2>
+<o:EntityAttribute Ref="o95"/>
+</c:Object2>
+</o:RelationshipJoin>
+</c:Joins>
+<c:ParentIdentifier>
+<o:Identifier Ref="o43"/>
+</c:ParentIdentifier>
+</o:Relationship>
+</c:Relationships>
+<c:Inheritances>
+<o:Inheritance Id="o23">
+<a:ObjectID>9E072F27-86DC-4F01-A9F9-2BE1AD219F54</a:ObjectID>
+<a:Name>XT</a:Name>
+<a:Code>XT</a:Code>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {DDB7DBFA-61F5-42A6-AFB1-48592C6929BE}
+DAT 1669885057</a:History>
+<a:BaseLogicalInheritance.Complete>0</a:BaseLogicalInheritance.Complete>
+<c:ParentEntity>
+<o:Entity Ref="o32"/>
+</c:ParentEntity>
+</o:Inheritance>
+</c:Inheritances>
+<c:InheritanceLinks>
+<o:InheritanceLink Id="o26">
+<a:ObjectID>3553D215-B913-4FBB-89D1-B2C81DD596C0</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {639C8BCC-F529-4988-B39C-F4C28269E823}
+DAT 1669885057</a:History>
+<c:Object1>
+<o:Inheritance Ref="o23"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o37"/>
+</c:Object2>
+</o:InheritanceLink>
+<o:InheritanceLink Id="o29">
+<a:ObjectID>A44D6D94-1FA7-4E29-9D95-D552675C1CDF</a:ObjectID>
+<a:CreationDate>1669885056</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885056</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:History>ORG {BE36CBC1-1135-4D5A-8198-46C9A3270784}
+DAT 1669885057</a:History>
+<c:Object1>
+<o:Inheritance Ref="o23"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o36"/>
+</c:Object2>
+</o:InheritanceLink>
+</c:InheritanceLinks>
+<c:TargetModels>
+<o:TargetModel Id="o102">
+<a:ObjectID>21BD4CA3-B93E-4A8B-8437-F0A25F978C27</a:ObjectID>
+<a:Name>correction_Exo7</a:Name>
+<a:Code>CORRECTION_EXO7</a:Code>
+<a:CreationDate>1669885057</a:CreationDate>
+<a:Creator>Maxime</a:Creator>
+<a:ModificationDate>1669885057</a:ModificationDate>
+<a:Modifier>Maxime</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/Maxime/Documents/MCD/Merise2-Héritage-Exo7/correction_Exo7.mcd</a:TargetModelURL>
+<a:TargetModelID>DC1D073E-8BE3-4E35-86F8-C2C415913582</a:TargetModelID>
+<a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
